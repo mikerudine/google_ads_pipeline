@@ -26,9 +26,7 @@ The pipeline outputs a consolidated table with:
 ## Technology
 - **SQL** (BigQuery)
 - Can be integrated into ETL pipelines with Python or Airflow.
-
-## Example
-Input (synthetic sample in `/data/sample_input/`) → Output (`/data/sample_output/clean_ads.csv`)
+ 
 
 ## Notes
 - No real client data included; all examples use anonymized or synthetic data.
