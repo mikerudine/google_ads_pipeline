@@ -1,9 +1,9 @@
 -- Google Ads Data Cleaning and Aggregation Pipeline
--- Author: [Your Name]
+-- Author: [Mike Rudine]
 -- Purpose: Consolidate raw Google Ads data into a clean table for analysis
 
 -- Insert cleaned data into the final table
-INSERT INTO `[YOUR_PROJECT].ads.google_ads`
+INSERT INTO `[YOUR_PROJECT].[YOUR_DESTINATION_DATASET].google_ads`
 WITH 
 
 -- Ad group stats for the last 2 days with impressions > 0
